@@ -21,11 +21,22 @@ h1 {
   font-family: 'GFS Didot', serif;
 }
 
-h2{
+.characters{
   color:whitesmoke;
   background-color: rgb(59, 59, 59);
   font-family: 'GFS Didot', serif;
 }
+
+a:link {
+  color:whitesmoke;
+}
+a:visited{
+  color:whitesmoke
+}
+a:hover {
+  color:burlywood;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -39,7 +50,22 @@ ul {
     text-decoration: none;
   }
 
-  h3{
+  .hometext{
     text-align: right;
     font-family: 'GFS Neohellenic', sans-serif;
+  }
+
+  .statue {
+    width: 70%;
+    height: 70%;
+  }
+
+#sketchimage{
+  width: 40%;
+  height: 40%;
+}
+
+  .footer {
+    width: 100%;
+    height: 100%;
   }
