@@ -59,6 +59,7 @@ ul {
   .hometext{
     text-align: right;
     font-family: 'GFS Neohellenic', sans-serif;
+    padding-top: 30px;
   }
 
   .statue {
@@ -77,6 +78,30 @@ h2{
 
 h3{
   font-family: 'GFS Neohellenic', sans-serif;
+}
+
+p{
+  font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.athenaimage{
+  float: right;
+}
+
+.nikeimage{
+  float: right;
+}
+
+.medusaimage{
+  float: right;
+}
+
+.eriimage{
+  float: right;
+}
+
+.pandoraimage{
+  float: right;
 }
 
   .footer {
