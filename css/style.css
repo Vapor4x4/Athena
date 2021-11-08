@@ -24,12 +24,15 @@ h1 {
 }
 
 .sideleft{
-  
-
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
 .sideright{
-
+  position: absolute;
+  right: 0;
+  z-index: -1;
 }
 
 .characters{
@@ -92,6 +95,10 @@ h3{
 
 p{
   font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.athenaep{
+  display: block;
 }
 
 .athenaimage{
