@@ -20,7 +20,7 @@ header{
 h1 {
   color:whitesmoke;
   font-family: 'GFS Didot', serif;
-  font-size: large;
+  font-size: x-large;
 }
 
 .sideleft{
@@ -87,14 +87,17 @@ ul {
 
 h2{
   font-family: 'GFS Didot', serif;
+  font-size: large;
 }
 
 h3{
   font-family: 'GFS Neohellenic', sans-serif;
+  font-size: large;
 }
 
 p{
   font-family: 'GFS Neohellenic', sans-serif;
+  font-size: large;
 }
 
 .athenaep{
