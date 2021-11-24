@@ -5,7 +5,102 @@ body{
     background-repeat: no-repeat;
 }
 
-header{
+/* .grid1 {
+  display: grid;
+  grid-template-columns: 0.25fr repeat(2, 1fr) 0.25fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  }
+
+.div1 { grid-area: 1 / 1 / 2 / 5; }
+.div2 { grid-area: 5 / 1 / 6 / 5; }
+.div3 { grid-area: 2 / 1 / 5 / 2; }
+.div4 { grid-area: 2 / 4 / 5 / 5; }
+.div5 { grid-area: 2 / 3 / 3 / 4; }
+.div6 { grid-area: 2 / 2 / 6 / 3; }
+.div7 { grid-area: 1 / 4 / 2 / 5; } */
+
+
+/* .grid2 {
+  display: grid;
+  grid-template-columns: 0.25fr repeat(3, 1fr) 0.25fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 6; }
+  .div2 { grid-area: 5 / 1 / 6 / 6; }
+  .div3 { grid-area: 2 / 1 / 5 / 2; }
+  .div4 { grid-area: 2 / 5 / 5 / 6; }
+  .div9 { grid-area: 2 / 2 / 5 / 4; }
+  .div8 { grid-area: 2 / 4 / 4 / 5; } */
+
+
+  /* .grid1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 0.9fr 1.1fr 1.2fr 0.8fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 5; }
+  .div2 { grid-area: 4 / 1 / 5 / 5; }
+  .div3 { grid-area: 2 / 1 / 5 / 2; }
+  .div4 { grid-area: 2 / 4 / 5 / 5; }
+  .div5 { grid-area: 2 / 3 / 3 / 4; }
+  .div6 { grid-area: 2 / 2 / 5 / 3; }
+  
+  
+  html, body , .grid1 {
+    height: 100%;
+    margin: 0;
+  } */
+  
+  .div1 {
+    background: tomato;}
+  .div2 {
+    background: lightgreen;}
+  .div5 {
+    background: teal;}
+  .div6 {
+    background: deepskyblue;}
+  .div3 {
+    background: gold;}
+  .div4 {
+    background: orange;}
+  .div7 {
+    background: pink; }
+
+
+  
+  input#un-mute {
+    display: none;
+  }
+  
+  .unmute img {
+    display: none;
+  }
+  
+  input#un-mute:checked ~ .unmute img {
+    display: initial;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .musiconoff{
+    width: 30px;
+    height: 30px;
+  }
+
+  input#un-mute:checked ~ .mute img {
+    display: none;
+  }
+  
+  
+  header{
   background-color: black;
 }
 
@@ -13,6 +108,8 @@ header{
   display: inline;
 }
 .logoimage{
+  /* width: 150px;
+  height: 150px; */
   width: 7%;
   height: 7%;
 }
