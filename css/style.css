@@ -2,7 +2,7 @@ body{
     background-image: url("../images/bg1.jpg");
     background-color: rgb(168, 148, 82);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 /* .grid1 {
@@ -38,9 +38,9 @@ body{
   .div8 { grid-area: 2 / 4 / 4 / 5; } */
 
 
-  /* .grid1 {
+  .grid1 {
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-columns: 0.2fr 1.5fr 1.5fr 0.2fr;
     grid-template-rows: 0.9fr 1.1fr 1.2fr 0.8fr;
     gap: 3px 3px;
     grid-auto-flow: row;
@@ -52,14 +52,14 @@ body{
   .div4 { grid-area: 2 / 4 / 5 / 5; }
   .div5 { grid-area: 2 / 3 / 3 / 4; }
   .div6 { grid-area: 2 / 2 / 5 / 3; }
+  .div7 { grid-area: 1 / 4 / 2 / 5; }
   
   
-  html, body , .grid1 {
+  /* html, body , .grid1 {
     height: 100%;
-    margin: 0;
-  } */
+    margin: 0;} */
   
-  .div1 {
+  /* .div1 {
     background: tomato;}
   .div2 {
     background: lightgreen;}
@@ -72,7 +72,7 @@ body{
   .div4 {
     background: orange;}
   .div7 {
-    background: pink; }
+    background: pink; } */
 
 
   
@@ -123,13 +123,13 @@ h1 {
 .sideleft{
   position: absolute;
   left: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .sideright{
   position: absolute;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .characters{
@@ -170,6 +170,7 @@ ul {
     font-family: 'GFS Neohellenic', sans-serif;
     padding-top: 30px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 
   .statue {
@@ -198,7 +199,7 @@ p{
 }
 
 .athenaep{
-  display: block;
+  display: inline-table;
 }
 
 .athenaimage{
@@ -221,7 +222,35 @@ p{
   float: right;
 }
 
+.characternames {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.athenatext {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.niketext {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.eretext {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  /* text-indent: 10px; */
+}
+
   .footer {
     width: 100%;
     height: 100%;
+    z-index: -1;
   }
